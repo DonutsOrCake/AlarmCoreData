@@ -10,9 +10,7 @@
 		47713789263B718F002CB891 /* AlarmCoreData.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 47713787263B718F002CB891 /* AlarmCoreData.xcdatamodeld */; };
 		4771378F263B71E2002CB891 /* Alarm+Convenience.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4771378E263B71E2002CB891 /* Alarm+Convenience.swift */; };
 		47713791263B7204002CB891 /* CoreDataStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47713790263B7204002CB891 /* CoreDataStack.swift */; };
-		47713797263B726F002CB891 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 47713793263B726E002CB891 /* Info.plist */; };
 		47713798263B726F002CB891 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47713794263B726E002CB891 /* AppDelegate.swift */; };
-		47713799263B726F002CB891 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 47713795263B726E002CB891 /* Assets.xcassets */; };
 		4771379A263B726F002CB891 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47713796263B726F002CB891 /* SceneDelegate.swift */; };
 		477137A1263B743C002CB891 /* AlarmListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 477137A0263B743C002CB891 /* AlarmListTableViewController.swift */; };
 		477137A3263B74CC002CB891 /* AlarmDetailTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 477137A2263B74CC002CB891 /* AlarmDetailTableViewController.swift */; };
@@ -20,6 +18,7 @@
 		477137A9263B758A002CB891 /* AlarmScheduler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 477137A8263B758A002CB891 /* AlarmScheduler.swift */; };
 		477137AB263B75CF002CB891 /* DateHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 477137AA263B75CF002CB891 /* DateHelper.swift */; };
 		477137AD263B75F6002CB891 /* AlarmController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 477137AC263B75F6002CB891 /* AlarmController.swift */; };
+		4781A388263B919E0069C20E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4781A387263B919E0069C20E /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,7 +29,6 @@
 		47713790263B7204002CB891 /* CoreDataStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataStack.swift; sourceTree = "<group>"; };
 		47713793263B726E002CB891 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		47713794263B726E002CB891 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		47713795263B726E002CB891 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		47713796263B726F002CB891 /* SceneDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		477137A0263B743C002CB891 /* AlarmListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlarmListTableViewController.swift; sourceTree = "<group>"; };
 		477137A2263B74CC002CB891 /* AlarmDetailTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlarmDetailTableViewController.swift; sourceTree = "<group>"; };
@@ -38,6 +36,9 @@
 		477137A8263B758A002CB891 /* AlarmScheduler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlarmScheduler.swift; sourceTree = "<group>"; };
 		477137AA263B75CF002CB891 /* DateHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateHelper.swift; sourceTree = "<group>"; };
 		477137AC263B75F6002CB891 /* AlarmController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlarmController.swift; sourceTree = "<group>"; };
+		4781A385263B91990069C20E /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4781A387263B919E0069C20E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4781A389263B91B00069C20E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FBF66FD625B755D40038F7AC /* AlarmCoreData.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AlarmCoreData.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -74,8 +75,10 @@
 		47713792263B725D002CB891 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				4781A387263B919E0069C20E /* Assets.xcassets */,
+				4781A389263B91B00069C20E /* Assets.xcassets */,
+				4781A385263B91990069C20E /* Info.plist */,
 				47713794263B726E002CB891 /* AppDelegate.swift */,
-				47713795263B726E002CB891 /* Assets.xcassets */,
 				47713793263B726E002CB891 /* Info.plist */,
 				47713796263B726F002CB891 /* SceneDelegate.swift */,
 			);
@@ -219,8 +222,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				47713797263B726F002CB891 /* Info.plist in Resources */,
-				47713799263B726F002CB891 /* Assets.xcassets in Resources */,
+				4781A388263B919E0069C20E /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
